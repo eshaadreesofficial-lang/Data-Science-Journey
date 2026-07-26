@@ -22,44 +22,44 @@ print('world')
 print('hello',end='-')
 print('world')
 
-'# 2. Data Types
+# 2. Data Types
 
-"# Integer
+# Integer
 print(8)
 # 1*10^308
 print(1e309)
 
-"# Decimal/Float
+# Decimal/Float
 print(8.55)
 print(1.7e309)
 
-"# Boolean
+# Boolean
 print(True)
 print(False)
 
-"# Text/String
+# Text/String
 print('Hello World')
 
-"# complex
+# complex
 print(5+6j)
 
-"# List-> C-> Array
+# List-> C-> Array
 print([1,2,3,4,5])
 
-"# Tuple
+# Tuple
 print((1,2,3,4,5))
 
-"# Sets
+# Sets
 print({1,2,3,4,5})
 
-"# Dictionary
+# Dictionary
 print({'name':'chuzzi','gender':'Male','weight':70})
 
-"# type
+# type
 type([1,2,3])
 
-"# 3. Variables
-"# Important interview Question
+# 3. Variables
+# Important interview Question
 # Static Vs Dynamic Typing
 # Static Vs Dynamic Binding
 # stylish declaration techniques
@@ -73,19 +73,19 @@ b = 6
 
 print(a + b)
 
-"# Dynamic Typing           # once variable declared in program it's value cannot be changed(used in C++)
+# Dynamic Typing           # once variable declared in program it's value cannot be changed(used in C++)
 a = 5
 
-"# Static Typing            # a variablee can be used multiple time with multiple values in whole program(used in Python)
+# Static Typing            # a variablee can be used multiple time with multiple values in whole program(used in Python)
 int a = 5
 
-"# Dynamic Binding
+# Dynamic Binding
 a = 5
 print(a)
 a = 'Chuzzi'
 print(a)
 
-"# Static Binding
+# Static Binding
 int a = 5
 
 a = 1
@@ -99,7 +99,7 @@ print(a,b,c)
 a=b=c= 5
 print(a,b,c)
 
-"""# Comments"""
+# Comments
 
 # this is a comment
 # second line
@@ -108,9 +108,9 @@ b = 6 # like this
 # second comment
 print(a+b)
 
-"# 4. Keywords & Identifiers
+# 4. Keywords & Identifiers
 
-"# Identifiers
+# Identifiers
 # You can't start with a digit
 name1 = 'Nitish'
 print(name1)
@@ -133,7 +133,7 @@ result = fnum + snum
 print(result)
 print(type(fnum))
 
-"# 6. Type Conversion
+# 6. Type Conversion
 
 # Implicit Vs Explicit
 print(5+5.6)
@@ -141,29 +141,29 @@ print(type(5),type(5.6))
 
 print(4 + '4')
 
-"# Explicit
-"# str -> int
+# Explicit
+# str -> int
  #int(4+5j)
 
-"# int to str
+# int to str
 str(5)
 
-"# float
+# float
 float(4)
 
-"# 7. Literals
+# 7. Literals
 
 a = 0b1010 #Binary Literals
 b = 100 #Decimal Literal
 c = 0o310 #Octal Literal
 d = 0x12c #Hexadecimal Literal
 
-"#Float Literal
+#Float Literal
 float_1 = 10.5
 float_2 = 1.5e2 # 1.5 * 10^2
 float_3 = 1.5e-3 # 1.5 * 10^-3
 
-"#Complex Literal
+#Complex Literal
 x = 3.14j
 
 print(a, b, c, d)
@@ -174,7 +174,7 @@ print(x, x.imag, x.real)
 x = 3.14j
 print(x.imag)
 
-"#Input using quotes
+#Input using quotes
 string = 'This is Python'
 strings = "This is Python"
 char = "C"
@@ -189,14 +189,14 @@ print(multiline_str)
 print(unicode)
 print(raw_str)
 
-"#Input using Boolean
+#Input using Boolean
 a = True + 4
 b = False + 10
 
 print("a:", a)
 print("b:", b)
 
-"#Used None
+#Used None
 #None indicates this varaible will be used later
 #If we only write K and not intialize then compiler create error
 k = None
