@@ -1,4 +1,4 @@
-"# Operators in Python
+# Operators in Python
 
 - Arithmetic Operators
 - Relational Operators
@@ -8,7 +8,7 @@
 - Membership Operators
 
 
-"# Arithmetric Operators
+# Arithmetric Operators
 print(5+6)
 
 print(5-6)
@@ -23,7 +23,7 @@ print(5%2)
 
 print(5**2)
 
-"# Relational Operators
+# Relational Operators
 print(4>5)
 
 print(4<5)
@@ -36,7 +36,7 @@ print(4==4)
 
 print(4!=4)
 
-"# Logical Operators
+# Logical Operators
 print(1 and 0)
 
 print(1 or 0)
@@ -74,7 +74,7 @@ a %= 2
 
 print(a)
 
-"# Membership Operators
+# Membership Operators
 
 # in/not in
 
@@ -82,7 +82,7 @@ print('D' not in 'Delhi')
 
 print(1 in [2,3,4,5,6])
 
-"# Program - Find the sum of a 3 digit number entered by the user
+# Program - Find the sum of a 3 digit number entered by the user
 
 number = int(input('Enter a 3 digit number'))
 
@@ -100,7 +100,7 @@ c = number % 10
 
 print(a + b + c)
 
-"# If-else in Python
+# If-else in Python
 
 # login program and indentation
 # email -> nitish.campusx@gmail.com
@@ -181,20 +181,20 @@ print(datetime.datetime.now())
 
 help('modules')
 
-"# Loops in Python
+# Loops in Python
 - Need for loops
 - While Loop
 - For Loop
 
 
-"# While loop example -> program to print the table
+# While loop example -> program to print the table
 number = int(input('enter the number'))
 i = 1
 while i<11:
   print(number,'*',i,'=',number * i)
   i += 1
 
-"# Program -> Sum of all digits of a given number
+# Program -> Sum of all digits of a given number
 
 x=int(input("enter number")
 sum=0
@@ -211,7 +211,7 @@ while x < 3:
 else:
   print('limit crossed')
  
-'# Guessing game
+# Guessing game
 
 # generate a random integer between 1 and 100
 import random
@@ -232,7 +232,7 @@ else:
   print('correct guess')
   print('attempts',counter)
 
-"# For loop demo
+ For loop demo
 
 for i in {1,2,3,4,5}:
   print(i)
