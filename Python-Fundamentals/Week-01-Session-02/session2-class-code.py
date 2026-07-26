@@ -139,7 +139,7 @@ elif b<c:
 else:
   print('smallest is',c)
 
-"# menu driven calculator
+# menu driven calculator
 menu = input("""
 Hi! how can I help you.
 1. Enter 1 for pin change
@@ -155,7 +155,7 @@ elif menu == '2':
 else:
   print('exit')
 
-"# Modules in Python
+# Modules in Python
 - math
 - keywords
 - random
@@ -202,9 +202,8 @@ for i in x:
     sum=sum+i
 print(sum)
 
-"# while loop with else
+# while loop with else
 x = 1
-
 while x < 3:
   print(x)
   x += 1
